@@ -1,0 +1,244 @@
+/* Breakpoints */
+/* Grid variables */
+/* Grid default classes */
+/* line 2, ../sass/partials/_grid.scss */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+/* line 8, ../sass/partials/_grid.scss */
+.grid.center-items {
+  align-items: center;
+}
+
+/* Grid logic */
+/* line 19, ../sass/partials/_grid.scss */
+.col-1 {
+  width: calc((100% / 12) * 1 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+/* line 19, ../sass/partials/_grid.scss */
+.col-2 {
+  width: calc((100% / 12) * 2 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+/* line 19, ../sass/partials/_grid.scss */
+.col-3 {
+  width: calc((100% / 12) * 3 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+/* line 19, ../sass/partials/_grid.scss */
+.col-4 {
+  width: calc((100% / 12) * 4 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+/* line 19, ../sass/partials/_grid.scss */
+.col-5 {
+  width: calc((100% / 12) * 5 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+/* line 19, ../sass/partials/_grid.scss */
+.col-6 {
+  width: calc((100% / 12) * 6 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+/* line 19, ../sass/partials/_grid.scss */
+.col-7 {
+  width: calc((100% / 12) * 7 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+/* line 19, ../sass/partials/_grid.scss */
+.col-8 {
+  width: calc((100% / 12) * 8 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+/* line 19, ../sass/partials/_grid.scss */
+.col-9 {
+  width: calc((100% / 12) * 9 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+/* line 19, ../sass/partials/_grid.scss */
+.col-10 {
+  width: calc((100% / 12) * 10 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+/* line 19, ../sass/partials/_grid.scss */
+.col-11 {
+  width: calc((100% / 12) * 11 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+/* line 19, ../sass/partials/_grid.scss */
+.col-12 {
+  width: calc((100% / 12) * 12 - 16px * 2);
+  display: block;
+  margin: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-1 {
+    width: calc((100% / 12) * 1 - 16px * 2);
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-2 {
+    width: calc((100% / 12) * 2 - 16px * 2);
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-3 {
+    width: calc((100% / 12) * 3 - 16px * 2);
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-4 {
+    width: calc((100% / 12) * 4 - 16px * 2);
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-5 {
+    width: calc((100% / 12) * 5 - 16px * 2);
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-6 {
+    width: calc((100% / 12) * 6 - 16px * 2);
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-7 {
+    width: calc((100% / 12) * 7 - 16px * 2);
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-8 {
+    width: calc((100% / 12) * 8 - 16px * 2);
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-9 {
+    width: calc((100% / 12) * 9 - 16px * 2);
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-10 {
+    width: calc((100% / 12) * 10 - 16px * 2);
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-11 {
+    width: calc((100% / 12) * 11 - 16px * 2);
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 30, ../sass/partials/_grid.scss */
+  .col-tablet-12 {
+    width: calc((100% / 12) * 12 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-1 {
+    width: calc((100% / 12) * 1 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-2 {
+    width: calc((100% / 12) * 2 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-3 {
+    width: calc((100% / 12) * 3 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-4 {
+    width: calc((100% / 12) * 4 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-5 {
+    width: calc((100% / 12) * 5 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-6 {
+    width: calc((100% / 12) * 6 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-7 {
+    width: calc((100% / 12) * 7 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-8 {
+    width: calc((100% / 12) * 8 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-9 {
+    width: calc((100% / 12) * 9 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-10 {
+    width: calc((100% / 12) * 10 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-11 {
+    width: calc((100% / 12) * 11 - 16px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../sass/partials/_grid.scss */
+  .col-mobile-12 {
+    width: calc((100% / 12) * 12 - 16px * 2);
+  }
+}

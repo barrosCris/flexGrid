@@ -1,0 +1,43 @@
+/* Grid default classes */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -$margin-size;
+    margin-right: -$margin-size;
+
+    &.center-items {
+        align-items: center;
+    }
+}
+
+/* Grid logic */
+@mixin col-size($col-size) {
+    width: calc((100% / 12) * #{$col-size} - #{$margin-size} * 2);
+}
+
+@for $i from 1 through $grid-length {
+    .#{$class-slug}-#{$i} {
+        @include col-size(#{$i});
+
+        display: block;
+        margin: $margin-size;
+    }
+}
+
+@for $i from 1 through $grid-length {
+    // Tablets (portrait and landscape)
+    @media screen and (max-width: $tablet-size) {
+        .#{$class-slug}-tablet-#{$i} {
+            @include col-size(#{$i});
+        }
+    }
+}
+
+@for $i from 1 through $grid-length {
+    // Smartphones (portrait and landscape)
+    @media screen and (max-width: $mobile-size) {
+        .#{$class-slug}-mobile-#{$i} {
+            @include col-size(#{$i});
+        }
+    }
+}
